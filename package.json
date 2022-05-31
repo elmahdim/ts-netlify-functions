@@ -1,7 +1,7 @@
 {
   "name": "ts-netlify-functions",
   "version": "1.0.0",
-  "description": "",
+  "description": "Netlify Functions using TypeScript - Boilerplate",
   "main": "index.js",
   "scripts": {
     "build": "",
