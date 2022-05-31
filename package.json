@@ -1,0 +1,44 @@
+{
+  "name": "ts-netlify-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmahdim/ts-netlify-functions.git"
+  },
+  "keywords": [],
+  "author": "Mahmoud Elmahdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmahdim/ts-netlify-functions/issues"
+  },
+  "homepage": "https://github.com/elmahdim/ts-netlify-functions#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "lambda-tester": "^4.0.1",
+    "prettier": "2.6.2",
+    "ts-jest": "^28.0.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "moduleDirectories": [
+      "functions",
+      "node_modules"
+    ]
+  }
+}
